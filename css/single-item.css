@@ -29,7 +29,7 @@
 
 .single-item .btn:hover {
     background: #0284c7;
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 .single-item .remove-btn {
