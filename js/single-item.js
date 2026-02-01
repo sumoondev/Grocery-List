@@ -8,7 +8,7 @@ export function createSingleItem(item) {
         <input type="checkbox" ${item.completed ? "checked" : ""}>
         <p style="text-decoration: ${item.completed ? "line-through" : "none"}">${item.name}</p>
         <button class="btn icon-btn edit-btn" type="button"><i class="fa-regular fa-pen-to-square"></i></button>
-        <button class="btn icon-btn remove-btn" type="button"><i class="fa-regular fa-square-plus"></i></button><br>
+        <button class="btn icon-btn remove-btn" type="button"><i class="fa-regular fa-trash-can"></i></button>
     `;
     
     const removeBtn = div.querySelector(".remove-btn");
